@@ -6,7 +6,7 @@ export const User =({user})=> {
     const dispatch =useDispatch()
     const [flag , setFlag]=useState(false)
     const [updateUser , setUpdateUser] = useState(user)
-    console.log(updateUser)
+    // console.log(updateUser)
     const deleteHandler=()=>{
         dispatch(deleteUser(user))
     }
